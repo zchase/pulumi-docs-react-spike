@@ -11,6 +11,8 @@ async function main() {
         path.join(process.cwd(), "..", "layouts", "page", "react.html"),
         pageString,
     );
+
+    await utils.hydration.createPageHydrationAsset("pages/react/index");
 }
 
 main()
