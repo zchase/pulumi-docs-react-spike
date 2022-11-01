@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "jsx": "react",
+      "outDir": "bin",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": [
+        "index.ts",
+        "pages/**/*",
+        "utils/**/*",
+    ]
+}
